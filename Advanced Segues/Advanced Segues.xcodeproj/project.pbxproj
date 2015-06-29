@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A9E47751B40D93F00FE0EDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E47741B40D93F00FE0EDD /* AppDelegate.swift */; };
+		9A9E47771B40D93F00FE0EDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E47761B40D93F00FE0EDD /* ViewController.swift */; };
+		9A9E477A1B40D93F00FE0EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9E47781B40D93F00FE0EDD /* Main.storyboard */; };
+		9A9E477C1B40D93F00FE0EDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9E477B1B40D93F00FE0EDD /* Images.xcassets */; };
+		9A9E477F1B40D93F00FE0EDD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9E477D1B40D93F00FE0EDD /* LaunchScreen.xib */; };
+		9A9E478B1B40D94000FE0EDD /* Advanced_SeguesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E478A1B40D94000FE0EDD /* Advanced_SeguesTests.swift */; };
+		9A9E47951B40DE4300FE0EDD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E47941B40DE4300FE0EDD /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A9E47851B40D94000FE0EDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A9E47671B40D93F00FE0EDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A9E476E1B40D93F00FE0EDD;
+			remoteInfo = "Advanced Segues";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A9E476F1B40D93F00FE0EDD /* Advanced Segues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced Segues.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9E47731B40D93F00FE0EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A9E47741B40D93F00FE0EDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A9E47761B40D93F00FE0EDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A9E47791B40D93F00FE0EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A9E477B1B40D93F00FE0EDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A9E477E1B40D93F00FE0EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9A9E47841B40D94000FE0EDD /* Advanced SeguesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advanced SeguesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9E47891B40D94000FE0EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A9E478A1B40D94000FE0EDD /* Advanced_SeguesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_SeguesTests.swift; sourceTree = "<group>"; };
+		9A9E47941B40DE4300FE0EDD /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A9E476C1B40D93F00FE0EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9E47811B40D94000FE0EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A9E47661B40D93F00FE0EDD = {
+			isa = PBXGroup;
+			children = (
+				9A9E47711B40D93F00FE0EDD /* Advanced Segues */,
+				9A9E47871B40D94000FE0EDD /* Advanced SeguesTests */,
+				9A9E47701B40D93F00FE0EDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A9E47701B40D93F00FE0EDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A9E476F1B40D93F00FE0EDD /* Advanced Segues.app */,
+				9A9E47841B40D94000FE0EDD /* Advanced SeguesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A9E47711B40D93F00FE0EDD /* Advanced Segues */ = {
+			isa = PBXGroup;
+			children = (
+				9A9E47741B40D93F00FE0EDD /* AppDelegate.swift */,
+				9A9E47761B40D93F00FE0EDD /* ViewController.swift */,
+				9A9E47781B40D93F00FE0EDD /* Main.storyboard */,
+				9A9E477B1B40D93F00FE0EDD /* Images.xcassets */,
+				9A9E477D1B40D93F00FE0EDD /* LaunchScreen.xib */,
+				9A9E47941B40DE4300FE0EDD /* TableViewController.swift */,
+				9A9E47721B40D93F00FE0EDD /* Supporting Files */,
+			);
+			path = "Advanced Segues";
+			sourceTree = "<group>";
+		};
+		9A9E47721B40D93F00FE0EDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A9E47731B40D93F00FE0EDD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A9E47871B40D94000FE0EDD /* Advanced SeguesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A9E478A1B40D94000FE0EDD /* Advanced_SeguesTests.swift */,
+				9A9E47881B40D94000FE0EDD /* Supporting Files */,
+			);
+			path = "Advanced SeguesTests";
+			sourceTree = "<group>";
+		};
+		9A9E47881B40D94000FE0EDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A9E47891B40D94000FE0EDD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A9E476E1B40D93F00FE0EDD /* Advanced Segues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9E478E1B40D94000FE0EDD /* Build configuration list for PBXNativeTarget "Advanced Segues" */;
+			buildPhases = (
+				9A9E476B1B40D93F00FE0EDD /* Sources */,
+				9A9E476C1B40D93F00FE0EDD /* Frameworks */,
+				9A9E476D1B40D93F00FE0EDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Advanced Segues";
+			productName = "Advanced Segues";
+			productReference = 9A9E476F1B40D93F00FE0EDD /* Advanced Segues.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A9E47831B40D94000FE0EDD /* Advanced SeguesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9E47911B40D94000FE0EDD /* Build configuration list for PBXNativeTarget "Advanced SeguesTests" */;
+			buildPhases = (
+				9A9E47801B40D94000FE0EDD /* Sources */,
+				9A9E47811B40D94000FE0EDD /* Frameworks */,
+				9A9E47821B40D94000FE0EDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A9E47861B40D94000FE0EDD /* PBXTargetDependency */,
+			);
+			name = "Advanced SeguesTests";
+			productName = "Advanced SeguesTests";
+			productReference = 9A9E47841B40D94000FE0EDD /* Advanced SeguesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A9E47671B40D93F00FE0EDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = uinik;
+				TargetAttributes = {
+					9A9E476E1B40D93F00FE0EDD = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 9V79KQQ7KK;
+					};
+					9A9E47831B40D94000FE0EDD = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 9A9E476E1B40D93F00FE0EDD;
+					};
+				};
+			};
+			buildConfigurationList = 9A9E476A1B40D93F00FE0EDD /* Build configuration list for PBXProject "Advanced Segues" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A9E47661B40D93F00FE0EDD;
+			productRefGroup = 9A9E47701B40D93F00FE0EDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A9E476E1B40D93F00FE0EDD /* Advanced Segues */,
+				9A9E47831B40D94000FE0EDD /* Advanced SeguesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A9E476D1B40D93F00FE0EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9E477A1B40D93F00FE0EDD /* Main.storyboard in Resources */,
+				9A9E477F1B40D93F00FE0EDD /* LaunchScreen.xib in Resources */,
+				9A9E477C1B40D93F00FE0EDD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9E47821B40D94000FE0EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A9E476B1B40D93F00FE0EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9E47771B40D93F00FE0EDD /* ViewController.swift in Sources */,
+				9A9E47951B40DE4300FE0EDD /* TableViewController.swift in Sources */,
+				9A9E47751B40D93F00FE0EDD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9E47801B40D94000FE0EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9E478B1B40D94000FE0EDD /* Advanced_SeguesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A9E47861B40D94000FE0EDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A9E476E1B40D93F00FE0EDD /* Advanced Segues */;
+			targetProxy = 9A9E47851B40D94000FE0EDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A9E47781B40D93F00FE0EDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A9E47791B40D93F00FE0EDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A9E477D1B40D93F00FE0EDD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A9E477E1B40D93F00FE0EDD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A9E478C1B40D94000FE0EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A9E478D1B40D94000FE0EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A9E478F1B40D94000FE0EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Advanced Segues/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		9A9E47901B40D94000FE0EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Advanced Segues/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		9A9E47921B40D94000FE0EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Advanced SeguesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advanced Segues.app/Advanced Segues";
+			};
+			name = Debug;
+		};
+		9A9E47931B40D94000FE0EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Advanced SeguesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advanced Segues.app/Advanced Segues";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A9E476A1B40D93F00FE0EDD /* Build configuration list for PBXProject "Advanced Segues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9E478C1B40D94000FE0EDD /* Debug */,
+				9A9E478D1B40D94000FE0EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9E478E1B40D94000FE0EDD /* Build configuration list for PBXNativeTarget "Advanced Segues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9E478F1B40D94000FE0EDD /* Debug */,
+				9A9E47901B40D94000FE0EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A9E47911B40D94000FE0EDD /* Build configuration list for PBXNativeTarget "Advanced SeguesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9E47921B40D94000FE0EDD /* Debug */,
+				9A9E47931B40D94000FE0EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A9E47671B40D93F00FE0EDD /* Project object */;
+}
